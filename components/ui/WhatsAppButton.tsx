@@ -25,7 +25,7 @@ export default function WhatsAppButton({ phoneNumber }: WhatsAppButtonProps) {
 	return (
 		<button
 			onClick={handleWhatsAppClick}
-			className='w-[310px] sm:w-[330px] h-16 bg-[#323232] text-white py-4 px-6 rounded-[12px] font-extrabold text-base hover:opacity-90 transition-opacity'>
+			className='w-[310px] lg:w-[330px] h-16 bg-[#323232] text-white py-4 px-6 rounded-[12px] font-extrabold text-base hover:opacity-90 transition-opacity'>
 			Связаться с магазином
 		</button>
 	)

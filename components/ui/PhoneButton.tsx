@@ -12,7 +12,7 @@ export default function PhoneButton() {
 	return (
 		<button
 			onClick={handleCall}
-			className='w-[234px] sm:w-[254px] h-[60px] bg-white text-black py-4 px-6 rounded-[12px] font-medium 
+			className='w-[234px] lg:w-[254px] h-[60px] bg-white text-black py-4 px-6 rounded-[12px] font-medium 
                  shadow-[0_2px_8px_rgba(0,0,0,0.1)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]
                  transition-shadow flex items-center justify-center gap-2'>
 			<svg

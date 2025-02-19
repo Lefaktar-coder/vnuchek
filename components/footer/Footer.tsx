@@ -13,8 +13,8 @@ interface Props {
 export const Footer: React.FC<Props> = ({ className }) => {
 	const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || ''
 	return (
-		<div className={cn('bg-[#f2f2f2] min-h-[307px]', className)}>
-			<div className='footer-container max-w-[310px] sm:max-w-[953px] mx-auto flex-row sm:flex gap-12 items-center sm:gap-52'>
+		<div className={cn('bg-[#f2f2f2] min-h-[350px] ', className)}>
+			<div className='footer-container max-w-[310px] sm:max-w-[953px] mx-auto justify-center flex-row sm:flex gap-12 items-center lg:gap-52'>
 				<div className='info-items mt-8 sm:mt-[67px]'>
 					<div className='flex items-center  gap-2'>
 						<span>
@@ -34,19 +34,19 @@ export const Footer: React.FC<Props> = ({ className }) => {
 								/>
 							</svg>
 						</span>
-						<h3 className='font-[#323232] text-base sm:text-xl font-bold'>
+						<h3 className='font-[#323232] text-base lg:text-xl font-bold'>
 							Краснодар, Восточно-Кругликовская 22/3
 						</h3>
 					</div>
 					<div className='grid grid-cols-2 items-center  mt-10'>
-						<div className='border-[#dfdfdf] border-b-2 border-r-2  h-full pl-1 '>
-							<p className='text-[#8f8f8f] font-font-geist-sans text-sm font-bold  pt-1'>
+						<div className='border-[#dfdfdf] border-b-2 border-r-2  h-full pl-3 '>
+							<p className='text-[#8f8f8f] font-font-geist-sans text-sm font-bold  pt-1 '>
 								Ежедневно
 							</p>
 							<p>08:00 - 20:00</p>
 						</div>
 						<div className='border-[#dfdfdf] border-b-2 sm:pb-1 pb-2 flex'>
-							<p className='text-[#8f8f8f] font-font-geist-sans text-xs sm:text-sm font-bold pr-2 sm:pr-[18px] pl-2 sm:pl-[22px] pt-1'>
+							<p className='text-[#8f8f8f] font-font-geist-sans text-xs sm:text-sm font-bold pr-2 lg:pr-[18px] pl-2 lg:pl-[22px] pt-1'>
 								Смотреть в
 							</p>
 							<Link
@@ -57,7 +57,7 @@ export const Footer: React.FC<Props> = ({ className }) => {
 									src='/yandex.png'
 									width={40}
 									height={40}
-									className='w-[36px] h-[36px] xs:w-[40px] sm:h-[40px]'
+									className='w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]'
 									alt='yandex-button'
 								/>
 								Яндекс
@@ -70,7 +70,7 @@ export const Footer: React.FC<Props> = ({ className }) => {
 									src='/2gis.png'
 									width={40}
 									height={40}
-									className='w-[36px] h-[36px] xs:w-[40px] sm:h-[40px]'
+									className='w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]'
 									alt='2gis-button'
 								/>
 								2Гис

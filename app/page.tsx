@@ -20,10 +20,10 @@ export default function Home() {
 				width={470}
 				height={365}
 			/>
-			<h3 className='text-center uppercase font-Krivulya text-xl sm:text-3xl'>
-				<p>Готовим для вас вкусный сайт.</p>
+			<h3 className='text-center uppercase font-Krivulya text-xl sm:text-2xl lg:text-3xl'>
+				<p className='whitespace-nowrap'>Готовим для вас вкусный сайт.</p>
 
-				<p>Осталось чуть-чуть!</p>
+				<p className='whitespace-nowrap'>Осталось чуть-чуть!</p>
 			</h3>
 		</div>
 	)
