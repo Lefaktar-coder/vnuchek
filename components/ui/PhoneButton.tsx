@@ -1,6 +1,5 @@
 'use client'
 
-import { Phone } from 'lucide-react'
 
 export default function PhoneButton() {
 	const phoneNumber = '+79282063634'

@@ -1,6 +1,5 @@
 'use client'
 
-import { Send } from 'lucide-react'
 
 interface TelegramButtonProps {
 	username?: string // Telegram username без @ символа
