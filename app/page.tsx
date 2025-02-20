@@ -21,10 +21,10 @@ export default function Home() {
 				height={365}
 			/>
 			<div className='text-center'>
-				<h3 className='text-center uppercase font-Krivulya text-xl sm:text-xl lg:text-3xl '>
-					<p className=''>Готовим для вас вкусный сайт.</p>
+				<h3 className='text-center uppercase font-custom text-xl sm:text-xl lg:text-3xl '>
+					<p className='font-krivulya'>Готовим для вас вкусный сайт.</p>
 
-					<p className='whitespace-nowrap'>Осталось чуть-чуть!</p>
+					<p className='whitespace-nowrap font-krivulya'>Осталось чуть-чуть!</p>
 				</h3>
 			</div>
 		</div>

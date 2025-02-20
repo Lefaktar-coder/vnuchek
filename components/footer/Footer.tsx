@@ -13,7 +13,7 @@ interface Props {
 export const Footer: React.FC<Props> = ({ className }) => {
 	const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || ''
 	return (
-		<div className={cn('bg-[#f2f2f2] min-h-[350px] ', className)}>
+		<div className={cn('bg-[#f2f2f2] min-h-[350px] pb-9', className)}>
 			<div className='container max-w-[310px] sm:max-w-[953px] mx-auto justify-center flex-row sm:flex gap-12 items-center lg:gap-52 px-2'>
 				<div className='info-items mt-8 sm:mt-[67px]'>
 					<div className='flex items-center  gap-2'>
@@ -34,7 +34,7 @@ export const Footer: React.FC<Props> = ({ className }) => {
 								/>
 							</svg>
 						</span>
-						<h3 className='font-[#323232] text-base lg:text-xl font-bold'>
+						<h3 className='font-[#323232] font-manrope  text-base lg:text-xl font-bold'>
 							Краснодар, Восточно-Кругликовская 22/3
 						</h3>
 					</div>
